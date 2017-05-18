@@ -47,6 +47,15 @@ We added styles from various paintings to a photo of Chicago. Click on thumbnail
 <a href = 'examples/style/the_scream.jpg'><img src = 'examples/thumbs/the_scream.jpg' height = '200px'></a>
 </div>
 
+
+## Install Opencv (Anaconda python 3)
+
+     conda install --channel https://conda.anaconda.org/menpo opencv3
+     
+     conda install -c menpo opencv3
+
+
+
 ## Implementation Details
 Our implementation uses TensorFlow to train a fast style transfer network. We use roughly the same transformation network as described in Johnson, except that batch normalization is replaced with Ulyanov's instance normalization, and the scaling/offset of the output `tanh` layer is slightly different. We use a loss function close to the one described in Gatys, using VGG19 instead of VGG16 and typically using "shallower" layers than in Johnson's implementation (e.g. we use `relu1_1` rather than `relu1_2`). Empirically, this results in larger scale style features in transformations.
 
