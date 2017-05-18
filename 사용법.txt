@@ -2,6 +2,8 @@
 
     conda install -c menpo opencv3
 
+                             스타일 이미지                              바꿀려는 이미지                결과 저장 위치
 python style.py --style examples/style/Starry_Night.jpg --test examples/content/chicago.jpg --test-dir examples/test
 
+                          바꿀려는 이미지         결과 이미지 경로 이름
 python evaluate.py --in-path momo.png --out-path Rmomo.png
