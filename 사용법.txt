@@ -1,0 +1,3 @@
+python style.py --style examples/style/Starry_Night.jpg --test examples/content/chicago.jpg --test-dir examples/test
+
+python evaluate.py --in-path momo.png --out-path Rmomo.png
