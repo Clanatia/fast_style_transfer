@@ -26,9 +26,11 @@ See how to generate these videos [here](#stylizing-video)!
 
 ## Opencv python install 
 
-     conda install --channel https://conda.anaconda.org/menpo 
+     conda install --channel https://conda.anaconda.org/menpo opencv3
      
      conda install -c menpo opencv3
+
+
 
 ## Image Stylization
 We added styles from various paintings to a photo of Chicago. Click on thumbnails to see full applied style images.
