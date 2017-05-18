@@ -23,6 +23,10 @@ Here we transformed every frame in a video, then combined the results. [Click to
 
 See how to generate these videos [here](#stylizing-video)!
 
+## Opencv python install 
+     conda install --channel https://conda.anaconda.org/menpo 
+     conda install -c menpo opencv3
+
 ## Image Stylization
 We added styles from various paintings to a photo of Chicago. Click on thumbnails to see full applied style images.
 <div align='center'>
